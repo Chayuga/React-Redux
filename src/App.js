@@ -12,7 +12,6 @@ function App() {
       <button onClick={() => dispatch(petIncrement(2))}>Add pet</button>
       <button onClick={() => dispatch(petDecrement())}>Remove pet</button>
       <h1>Pet counter {petCounter}</h1>
-      <h2>Number of favorite pets so far {petFavorite}</h2>
     </div>
   );
 }
